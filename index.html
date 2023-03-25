@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.rtl.min.css" integrity="sha384-5/ZcxA7Dub2FNG09dHw8CHmPN7Fz6ASlweagj0nuXjmMyupgH9n9F5Hd926zsu3/" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Peacock Airline</title>
+  </head>
+  <body>
+    <!-- https://colorhunt.co/palette/03001c301e675b8fb9b6eada -->
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Financials</a></li>
+        </ul>
+        
+    </header>
+        <section class="row one">
+            <!-- <div class="row content"> -->
+            <div class="sidebar col-xs-12 col-md-6">
+                <div class="object video">
+                    <h4 style="color:white">Fly With Us!</h4>
+                    <iframe src="https://www.youtube.com/embed/-jnCgrR_yKg" width="350" height="260" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="sidebar col-xs-12 col-md-6"> 
+                <div class="object info">
+                    <h6>Company members</h6>
+                    <div class="members">
+                        <span>CEO: bla</span>
+                        <span>CFo bla</span>
+                        <span>COO bla</span>
+                        <span>HRM bla</span>
+                        <span>CMO bla</span>
+                    </div>
+                    <h6 class="vision-text">Our Vision</h6>
+                    <p class="vision-text info-text">Lorem Ipsum is simply dummy text of the printing and typesetting.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    </p>
+                    <h6 class="reason-text">Why Choose US</h6>
+                    <p class="reason-text info-text">Lorem Ipsum is simply dummy text of the printing and typesetting.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    </p>
+                </div>
+            </div>
+            <!-- </div> -->
+        </section>
+
+        <section class="two">
+            <div id="booking"></div>
+        </section>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', () =>{
+            let header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY >0);
+        });
+    </script>
+  </body>
+</html>
